@@ -1,8 +1,9 @@
+###Sign up
 POST ticketing.dev/api/users/signup
 Content-Type: application/json
 
 {
-    "email": "asdf",
+    "email": "test@test.com",
     "password": "password"
 }
 
