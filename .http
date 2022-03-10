@@ -1,5 +1,5 @@
 ###Sign up
-POST ticketing.dev/api/users/signup
+POST ticketing.dev/api/users/signup/
 Content-Type: application/json
 
 {
@@ -8,5 +8,5 @@ Content-Type: application/json
 }
 
 ### Current User
-GET ticketing.dev/api/users/currentuser
+GET ticketing.dev/api/users/currentuser/
 Content-Type: application/json
