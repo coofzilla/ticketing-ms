@@ -1,5 +1,5 @@
 ###Sign up
-POST ticketing.dev/api/users/signup/ff
+POST ticketing.dev/api/users/signup/
 Content-Type: application/json
 
 {
