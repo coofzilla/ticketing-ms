@@ -31,6 +31,7 @@ router.post(
     const user = User.build({ email, password });
     await user.save();
 
+    //JWT CREATION
     const userJwt = jwt.sign(
       {
         id: user.id,
