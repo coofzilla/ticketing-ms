@@ -7,6 +7,15 @@ Content-Type: application/json
     "password": "password"
 }
 
+###Sign in
+POST ticketing.dev/api/users/signin
+Content-Type: application/json
+
+{
+    "email": "test@test.com",
+    "password": ""
+}
+
 ### Current User
 GET ticketing.dev/api/users/currentuser/
 Content-Type: application/json
